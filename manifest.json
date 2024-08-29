@@ -1,0 +1,89 @@
+{
+	"id": "86095987",
+	"name": "Kukkuniiaat",
+	"version": "1.0.0",
+	"main": "index.html",
+	"host": {
+		"app": "ID",
+		"minVersion": "18.5"
+	},
+	"manifestVersion": 5,
+	"entrypoints": [{
+		"type": "panel",
+		"id": "showSidebar",
+		"minimumSize": {
+			"width": 230,
+			"height": 200
+		},
+		"maximumSize": {
+			"width": 2000,
+			"height": 2000
+		},
+		"preferredDockedSize": {
+			"width": 320,
+			"height": 500
+		},
+		"preferredFloatingSize": {
+			"width": 300,
+			"height": 500
+		},
+		"label": {
+			"default": "Kukkuniiaat"
+		},
+		"icons": [
+			{
+				"width": 23,
+				"height": 23,
+				"path": "icons/logo23.png",
+				"scale": [
+					1,
+					2
+				],
+				"theme": [
+					"darkest",
+					"dark",
+					"medium",
+					"lightest",
+					"light",
+					"all"
+				]
+			}
+		]
+	}],
+	"requiredPermissions": {
+		"network": {
+			"domains": ["https://kukkuniiaat.gl", "https://oqaasileriffik.gl", "https://ordbog.gl", "https://retmig.dk", "https://gramtrans.com", "https://epo.visl.dk"]
+		},
+		"webview": {
+			"allow": "yes",
+			"domains": ["https://kukkuniiaat.gl", "https://oqaasileriffik.gl", "https://ordbog.gl", "https://retmig.dk", "https://gramtrans.com", "https://epo.visl.dk"],
+			"enableMessageBridge": "localAndRemote"
+		},
+		"launchProcess": {
+			"schemes": ["https"],
+			"extensions": []
+		}
+	},
+	"icons": [
+		{
+			"width": 48,
+			"height": 48,
+			"path": "icons/logo48.png",
+			"scale": [
+				1,
+				2
+			],
+			"theme": [
+				"darkest",
+				"dark",
+				"medium",
+				"lightest",
+				"light",
+				"all"
+			],
+			"species": [
+				"pluginList"
+			]
+		}
+	]
+}
