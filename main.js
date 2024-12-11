@@ -137,7 +137,7 @@ function eventListener(e) {
 	else if (e.a === 'getAllPars') {
 		rv.ps = getStoriesPars(app.activeDocument.stories);
 	}
-	else if (e.a === 'getSelectedPars') {
+	else if (e.a === 'getSelectedPars' || e.a === 'recheckSelectedPars') {
 		rv.ps = getSelectedPars();
 		if (!rv.ps.length) {
 			rv.a = 'showError';
